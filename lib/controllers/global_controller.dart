@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import '../data/models/task_model.dart';
-import '../data/services/local_storage_service.dart';
+import 'package:todolist/data/models/task_model.dart';
+import 'package:todolist/data/services/local_storage_service.dart';
 
 class GlobalController extends GetxController {
   var tasks = <TaskModel>[].obs;

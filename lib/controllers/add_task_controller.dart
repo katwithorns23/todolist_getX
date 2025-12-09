@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:todolist/controllers/home_controller.dart';
-import '../../data/models/task_model.dart';
+import 'package:todolist/data/models/task_model.dart';
 
 class AddTaskController extends GetxController {
   final titleController = TextEditingController();

@@ -1,5 +1,5 @@
 import 'package:get_storage/get_storage.dart';
-import '../models/task_model.dart';
+import 'package:todolist/data/models/task_model.dart';
 
 class LocalStorageService {
   static final _box = GetStorage();

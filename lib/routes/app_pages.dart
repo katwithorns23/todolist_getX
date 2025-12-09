@@ -5,7 +5,7 @@ import 'package:todolist/bindings/task_detail_binding.dart';
 import 'package:todolist/presentation/screens/add_task_screen.dart';
 import 'package:todolist/presentation/screens/home_screen.dart';
 import 'package:todolist/presentation/screens/task_detail_screen.dart';
-import 'app_routes.dart';
+import 'package:todolist/routes/app_routes.dart';
 
 class AppPages {
   static const initial = AppRoutes.HOME;
